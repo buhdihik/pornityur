@@ -9,7 +9,7 @@
 }
 
 .navbar {
-    min-height: 116px !important;
+   height: 40% !important;
 }
 
 .navbar-left {
@@ -18,9 +18,25 @@
 
 }
 
+.navbar-nav li a {
+    font-family: 'Merriweather', serif;
+    color: #000 !important;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.navbar-fixed-top {
+    border-color: transparent !important;
+}
+
+
 .navbar-brand img {
     width: 265px;
     margin-left: 10%;
+}
+
+.navbar-brand a {
+    width: 265px;
 }
 
 .row {
@@ -51,3 +67,48 @@
     color: white;
     text-transform: uppercase;
 }
+
+@media screen and (max-width: 1345px){
+    
+    .navbar-brand img {
+        width: 180px;
+        margin-left: 10%;
+}
+    
+    ul li a {
+        color:  red;
+    }
+}
+
+@media screen and (max-width: 998px){
+    
+    .navbar-brand img {
+        width: 140px;
+        margin-left: 10%;
+    }
+    
+   
+}
+
+@media screen and (max-width: 775px){
+    
+    .navbar-brand img {
+        width: 100px;
+        margin-left: 10%;
+    }
+    
+   
+}
+
+
+@media screen and (max-width: 460px){
+    
+    .navbar-brand img {
+        width: 70px;
+        margin-left: 10%;
+    }
+    
+   
+}
+
+
