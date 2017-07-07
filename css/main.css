@@ -39,6 +39,13 @@
     width: 265px;
 }
 
+.container-fluid .navbar-collapse {
+    border: none !important;
+}
+
+
+
+
 .row {
     margin-right: 0px !important;
     margin-left: 0px !important;
@@ -90,12 +97,26 @@
    
 }
 
-@media screen and (max-width: 775px){
+@media screen and (max-width: 766px){
     
     .navbar-brand img {
         width: 100px;
         margin-left: 10%;
     }
+    
+    .navbar-left {
+        margin-top: 0px !important;
+    }
+    
+   .container-fluid .navbar-collapse ul li a {
+    background: #F5E0AB;
+   }
+
+    .container-fluid .navbar-collapse ul li a:hover {
+        background: #999;
+    }
+
+
     
    
 }
