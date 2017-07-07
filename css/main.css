@@ -108,6 +108,10 @@
         margin-top: 0px !important;
     }
     
+    .navbar-collapse {
+     box-shadow: inset 0 0px 0 rgba(255,255,255,.1) !important;
+    }
+    
    .container-fluid .navbar-collapse ul li a {
     background: #F5E0AB;
    }
