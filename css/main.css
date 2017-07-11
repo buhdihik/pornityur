@@ -9,7 +9,7 @@
 }
 
 .navbar {
-   height: 40% !important;
+   height: 13%;
 }
 
 .navbar-left {
@@ -52,7 +52,7 @@
 }
 
 #first {
-   margin-top: 5%;
+   margin-top: 0%;
 }
 
 
@@ -63,11 +63,80 @@
     -o-background-size: cover;
     background-size: cover;
     height: 718px;
+    padding-top: 10%
+    
 }
 
-.navbar-default {
-    background:transparent !important;
+.wait {
+    color: orange;
+    font-size: 65px;
 }
+
+.orange a{
+    color: orange;
+    font-size: 65px;
+}
+
+.sqr-button a{
+    border: 2px solid #ffca57;
+    color: #ffca57;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    line-height: 40px;
+    min-width: 200px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+
+    
+}
+
+.sqr-button2 a {
+    border: 2px solid #fff;
+    color: #fff;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    line-height: 40px;
+    min-width: 200px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+
+.sqr-button3 a {
+    border: 2px solid #ffca57;
+    color: #ffca57;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    line-height: 40px;
+    min-width: 200px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+
+.sqr-button4 a {
+    border: 2px solid #444;
+    color: #444;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    line-height: 40px;
+    min-width: 200px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+
+
+
 
 .slogan h2, h1 {
     font-family: 'Merriweather', serif;
@@ -75,12 +144,86 @@
     text-transform: uppercase;
 }
 
+.collection {
+    padding-top: 10%;
+}
+
+.collection h1 {
+    font-family: 'Merriweather', serif;
+    color: #333;
+    text-transform: uppercase; 
+    margin-top: 0px !important;
+}
+
+.summer {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 55px;
+}
+
+.col-sm-6 img {
+    height: 360px;
+}
+
+.imageText  {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    width: 75%;
+}
+
+.imageText2 {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 75%;
+}
+
+.imageText3 {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    width: 80%;
+    
+
+}
+
+
+
+.imageText h4,a{
+    font-size: 34px;
+    color: #fff;
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase; 
+    text-align: center;
+}
+
+.imageText2 h4,a{
+    font-size: 34px;
+    color: #ffca57;
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase; 
+    text-align: center;
+}
+
+.imageText3 h4,a{
+    font-size: 50px;
+    color: #444;
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase; 
+    text-align: center;
+}
+
+
 @media screen and (max-width: 1345px){
     
     .navbar-brand img {
         width: 180px;
         margin-left: 10%;
-}
+    }
+    
+    .navbar {
+        height: 10%;
+    }
     
     ul li a {
         color:  red;
@@ -90,8 +233,73 @@
 @media screen and (max-width: 998px){
     
     .navbar-brand img {
-        width: 140px;
+        width: 180px;
         margin-left: 10%;
+    }
+    
+    .navbar {
+        height: 10%;
+    }
+    
+    .imageText h4,a{
+        
+        font-size: 22px;
+    }
+    
+    
+    .imageText2 h4,a{
+        
+        font-size: 22px;
+    }
+    
+    
+    
+    
+    .imageText3 h4,a{
+        
+        font-size: 22px;
+    }
+    
+    .sqr-button2 a{
+        border: 2px solid #ffca57;
+        color: #ffca57;
+        display: inline-block;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        font-size: 15px;
+        line-height: 30px;
+        min-width: 160px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+
+    }
+    
+    .sqr-button3 a{
+        border: 2px solid #ffca57;
+        color: #ffca57;
+        display: inline-block;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        font-size: 15px;
+        line-height: 30px;
+        min-width: 160px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+
+    }
+    
+    .sqr-button4 a{
+        border: 2px solid #ffca57;
+        color: #ffca57;
+        display: inline-block;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        font-size: 15px;
+        line-height: 30px;
+        min-width: 160px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+
     }
     
    
@@ -100,12 +308,16 @@
 @media screen and (max-width: 766px){
     
     .navbar-brand img {
-        width: 100px;
+        width: 180px;
         margin-left: 10%;
     }
     
     .navbar-left {
         margin-top: 0px !important;
+    }
+    
+    .navbar {
+        height: 10%;
     }
     
     .navbar-collapse {
@@ -119,6 +331,68 @@
     .container-fluid .navbar-collapse ul li a:hover {
         background: #999;
     }
+    
+    .slider {
+        padding-top: 12%;
+    }
+    
+    .imageText h4,a{
+        
+        font-size: 22px;
+    }
+    
+    
+    .imageText2 h4,a{
+        
+        font-size: 22px;
+    }
+    
+    .imageText3 h4,a{
+        
+        font-size: 22px;
+    }
+    
+    .sqr-button2 a{
+        border: 2px solid #ffca57;
+        color: #ffca57;
+        display: inline-block;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        font-size: 15px;
+        line-height: 30px;
+        min-width: 160px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+
+    }
+    
+    .sqr-button3 a{
+        border: 2px solid #ffca57;
+        color: #ffca57;
+        display: inline-block;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        font-size: 15px;
+        line-height: 30px;
+        min-width: 160px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+
+    }
+    
+    .sqr-button4 a{
+        border: 2px solid #ffca57;
+        color: #ffca57;
+        display: inline-block;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        font-size: 15px;
+        line-height: 30px;
+        min-width: 160px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+
+    }
 
 
     
@@ -129,11 +403,75 @@
 @media screen and (max-width: 460px){
     
     .navbar-brand img {
-        width: 70px;
+        width: 180px;
         margin-left: 10%;
+    }
+    
+     .slider {
+        padding-top: 22%;
+    }
+    
+    .imageText h4,a{
+        
+        font-size: 20px;
+    }
+    
+    .imageText2 h4,a{
+        
+        font-size: 20px;
+    }
+    
+    
+    .imageText3 h4,a{
+        
+        font-size: 20px;
+    }
+    
+    .sqr-button2 a{
+        border: 2px solid #ffca57;
+        color: #ffca57;
+        display: inline-block;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        font-size: 15px;
+        line-height: 30px;
+        min-width: 160px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+
+    }
+    
+    .sqr-button3 a{
+        border: 2px solid #ffca57;
+        color: #ffca57;
+        display: inline-block;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        font-size: 15px;
+        line-height: 30px;
+        min-width: 160px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+
+    }
+    
+    .sqr-button4 a{
+        border: 2px solid #ffca57;
+        color: #ffca57;
+        display: inline-block;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        font-size: 15px;
+        line-height: 30px;
+        min-width: 160px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+
     }
     
    
 }
+
+
 
 

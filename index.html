@@ -10,6 +10,7 @@
         <link href="css/main.css" rel="stylesheet" media="screen">
 
         <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet"> 
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script>
@@ -37,42 +38,73 @@
    </script>
       </head>
       <body>
-        <div class="container-fluid indexBG">
-             <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">
-              <img src="images/logo.png" class="img-response">
-            </a>
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-left">
-              <li class="active"><a href="#first">Home</a></li>
-              <li><a href="#second">Course</a></li>
-              <li><a href="#third">About</a></li>
-              <li><a href="#fourth">Contact</a> </li>
-            </ul>
+        <div class="container-fluid indexBG" id="first">
+            <nav class="navbar navbar-default navbar-fixed-top " >
+            <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand logo" href="#"><img src="images/logo.png" class="img-responsive"/></a>
+              </div>
+              <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-left">
+                  <li><a href="#first">HOME</a></li>
+                  <li><a href="#second">ABOUT</a></li>
+                  <li><a href="#third">PRODUCTS</a></li>
+                   <li><a href="#fourth">CONTACT</a></li>
 
-          </div><!--/.nav-collapse -->
-        </div><!--/.container-fluid -->
-      </nav>
-      </div>   
-          <div class="container-fluid" id="first">
+                </ul>
+
+              </div><!--/.nav-collapse -->
+            </div><!--/.container-fluid -->
+          </nav>  
+         
+         
               <div class="slider">
                   <div class="slogan text-center">
-                      <h2>The wait is over</h2>
-                      <h1>New Kitchen Module designs are here.</h1>
+                      <h2 class="wait">The wait is over</h2>
+                      <h1>New Kitchen Module designs <span class="orange"><a href="#products">are here.</a></span></h1>
+                      <br/>
+                      <div class="sqr-button"><a href="#">shop now!</a></div>
                   </div>
               </div>
-          </div>    
-        
+            
+         <div class="collection col-md-12" >
+           
+                 <div class="text-center summer">summer collection <span class="orange">2017</span></div>
+                     <div class="col-sm-4">
+                         <img src="images/image2.jpg" class="img-responsive">
+                             <div class="imageText">
+                                 <div class="sqr-button2 text-center"><a href="#">shop now!</a></div>
+                                 <h4>Kuraon style</h4>
+                            </div>
+                     </div>
+                 
+                     <div class="col-sm-4">
+                         <img src="images/image3.jpg" class="img-responsive">
+                          <div class="imageText2">
+                             <div class="sqr-button3 text-center"><a href="#">shop now!</a></div>
+                             <h4>black mamba 1.0</h4>
+                        </div>
+                     </div>
+         
+            
+             
+                 <div class="col-sm-4">
+                        <img src="images/image1.jpg" class="img-responsive">
+                        <div class="imageText3">
+                             <h4>office accessories</h4>
+                             <div class="sqr-button4 text-center"><a href="#">shop now!</a></div>
 
+                        </div>
+                 </div>
+          
+        </div>
+ </div>  
 
          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
       </body>
