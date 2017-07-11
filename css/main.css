@@ -213,6 +213,68 @@
     text-align: center;
 }
 
+.bestSeller {
+    padding-top: 35%;
+}
+.bestSeller h2 {
+    font-size: 50px;
+    color: #444;
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase; 
+    text-align: center;  
+}
+
+.height426 img{
+        height: 233px;
+    }
+
+    .price {
+        color: #9f4604;
+        font-family: 'Merriweather', serif;
+        font-size: 25px;
+        text-align: center;
+        
+    }  
+    
+    .boxWRibbon {
+        width: auto;
+    }
+    
+    .ribbon {
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        width: 50px;
+        background: #ffca57;
+        height: 120px;
+        
+        color: #fff;
+         display: inline-block;
+        overflow: hidden;
+        
+
+    }
+    
+    .ribbonInner {
+        padding-left: 10px;
+        display: inline-block;
+        white-space: nowrap;
+        /* this is for shity "non IE" browsers
+           that dosn't support writing-mode */
+        -webkit-transform: translate(1.1em,0) rotate(90deg);
+           -moz-transform: translate(1.1em,0) rotate(90deg);
+             -o-transform: translate(1.1em,0) rotate(90deg);
+                transform: translate(2.5em,0) rotate(90deg);
+        -webkit-transform-origin: 0 0;
+           -moz-transform-origin: 0 0;
+             -o-transform-origin: 0 0;
+        transform-origin: 0 0;
+    }
+    
+    
+    
+    
+    
 
 @media screen and (max-width: 1345px){
     
@@ -228,6 +290,68 @@
     ul li a {
         color:  red;
     }
+    
+     .imageText h4,a{
+        
+        font-size: 22px;
+    }
+    
+    
+    .imageText2 h4,a{
+        
+        font-size: 22px;
+    }
+    
+    
+    
+    
+    .imageText3 h4,a{
+        
+        font-size: 22px;
+    }
+    
+    .sqr-button2 a{
+        border: 2px solid #ffca57;
+        color: #ffca57;
+        display: inline-block;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        font-size: 15px;
+        line-height: 30px;
+        min-width: 160px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+
+    }
+    
+    .sqr-button3 a{
+        border: 2px solid #ffca57;
+        color: #ffca57;
+        display: inline-block;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        font-size: 15px;
+        line-height: 30px;
+        min-width: 160px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+
+    }
+    
+    .sqr-button4 a{
+        border: 2px solid #ffca57;
+        color: #ffca57;
+        display: inline-block;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        font-size: 15px;
+        line-height: 30px;
+        min-width: 160px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+
+    }
+    
 }
 
 @media screen and (max-width: 998px){
@@ -301,6 +425,18 @@
         text-transform: uppercase;
 
     }
+    
+    .bestSeller {
+    padding-top: 20%;
+    }
+    
+    .price {
+        font-size: 18px;
+    }
+    
+    
+    
+
     
    
 }
@@ -393,8 +529,19 @@
         text-transform: uppercase;
 
     }
+    
+    .height426 {
+        text-align: left;
+    }
+    
+    .height426 img {
+        height: 100%;
+    }
 
-
+    .ribbon {
+        left: 5%;
+    }
+    
     
    
 }
