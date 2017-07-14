@@ -13,6 +13,7 @@
         <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet"> 
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/main.js"></script>
         <script>
 					$(document).ready(function(){
 					$('a[href^="#"]').on('click',function(e){
@@ -109,26 +110,54 @@
         <div class="bestSeller container">
             <h2>Best Seller<br/>Products</h2>
             <div class="col-sm-4 height426 text-center">
-                <img src="images/image4.jpeg" class="img-responsive"><br/>
-                <span class="price">Price: $ 123.20</span><br/><br/><br/>
-                <img src="images/image7.jpeg" class="img-responsive"><br/>
-                <span class="price">Price: $ 123.20</span><br/><br/><br/>
-            </div>
-            <div class="col-sm-4 height426 text-center">
-                <img src="images/image5.jpeg" class="img-responsive"><br/>
-                <span class="price">Price: $ 123.20</span><br/><br/><br/>
-                <img src="images/image8.jpeg" class="img-responsive"><br/>
-                <span class="price">Price: $ 123.20</span><br/><br/><br/>
-            </div>
-            <div class="col-sm-4 height426 text-center">
-                <div class="ribbon">
-                    <div class="ribbonInner">Blue Chair</div>
+                <div class="productCol">
+                    <div class="ribbon" style="top:0%;right:180%;">
+                        <div class="ribbonInner">Blue Chair</div>
+                    </div>
+                    <img src="images/image4.jpeg" class="img-responsive "><br/>
+                    <span class="price">Price: $ 10.20</span><br/><br/><br/>  
                 </div>
-                <img src="images/image6.jpeg" class="img-responsive "><br/>
-                <span class="price">Price: $ 10.20</span><br/><br/><br/>
+                <div class="productCol">
+                    <div class="ribbon five" style="top:50%;right:180%;">
+                        <div class="ribbonInner">Blue Chair</div>
+                    </div>
+                    <img src="images/image5.jpeg" class="img-responsive "><br/>
+                    <span class="price">Price: $ 10.20</span><br/><br/><br/>  
+                </div>
+            </div>
+            <div class="col-sm-4 height426 text-center">
+                <div class="productCol">
+                    <div class="ribbon" style="top:0%;right:180%;">
+                        <div class="ribbonInner">Blue Chair</div>
+                    </div>
+                    <img src="images/image3.jpeg" class="img-responsive "><br/>
+                    <span class="price">Price: $ 10.20</span><br/><br/><br/>  
+                </div>
+                <div class="productCol">
+                    <div class="ribbon seven" style="top:50%;right:180%;">
+                        <div class="ribbonInner">Blue Chair</div>
+                    </div>
+                    <img src="images/image7.jpeg" class="img-responsive "><br/>
+                    <span class="price">Price: $ 10.20</span><br/><br/><br/>  
+                </div>
+            </div>
+            <div class="col-sm-4 height426 text-center">
+                <div class="productCol">
+                    <div class="ribbon">
+                        <div class="ribbonInner">Blue Chair</div>
+                    </div>
+                    <img src="images/image6.jpeg" class="img-responsive "><br/>
+                    <span class="price">Price: $ 10.20</span><br/><br/><br/>  
+                </div>
                 
-                <img src="images/image10.jpeg" class="img-responsive"><br/>
-                <span class="price">Price: $ 123.20</span><br/><br/><br/>
+                
+                <div class="productCol">
+                    <div class="ribbon" style="top:50%;">
+                        <div class="ribbonInner">Blue Chair</div>
+                    </div>
+                    <img src="images/image10.jpeg" class="img-responsive "><br/>
+                    <span class="price">Price: $ 10.20</span><br/><br/><br/>  
+                </div>
             </div>
             
         </div>    
@@ -144,16 +173,45 @@
           <br/><br/><br/>
           
           <div class="contact">
-             <div class="section2">
-                  <div class="top-border left"></div>
-                  <div class="top-border right"></div>
-                  <h1>CONTACT US</h1>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                      Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                      laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <a href="#">CONTACT US</a>
+              <div class="container">
+
+    <form class="well form-horizontal" action=" " method="post"  id="contact_form">
+<fieldset>
+
+<!-- Form Name -->
+<legend>Contact Us Today!</legend>
+
+<!-- Text input-->
+
+        <div class="form-group">
+          <label class="col-md-4 control-label">First Name</label>  
+          <div class="col-md-4 inputGroupContainer">
+          <div class="input-group">
+          <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+          <input  name="first_name" placeholder="First Name" class="form-control"  type="text">
             </div>
+          </div>
+        </div>
+
+       <div class="form-group">
+  <label class="col-md-4 control-label">E-Mail</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+  <input name="email" placeholder="E-Mail Address" class="form-control"  type="text">
+    </div>
+  </div>
+  <!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label"></label>
+  <div class="col-md-4">
+    <button type="submit" class="btn btn-warning" >Send <span class="glyphicon glyphicon-send"></span></button>
+  </div>
+</div>
+</div>
+
+
+    </div><!-- /.container -->
           </div>
          
             

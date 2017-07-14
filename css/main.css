@@ -241,12 +241,18 @@
         width: auto;
     }
     
+    .productCol {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+    
     .ribbon {
         position: absolute;
-        top: 50%;
+        top: 0%;
         left: 10%;
-        width: 50px;
-        background: #ffca57;
+        width: 40px;
+        background: #9f4604;
         height: 120px;
         
         color: #fff;
@@ -265,7 +271,7 @@
         -webkit-transform: translate(1.1em,0) rotate(90deg);
            -moz-transform: translate(1.1em,0) rotate(90deg);
              -o-transform: translate(1.1em,0) rotate(90deg);
-                transform: translate(2.5em,0) rotate(90deg);
+                transform: translate(2.2em,0) rotate(90deg);
         -webkit-transform-origin: 0 0;
            -moz-transform-origin: 0 0;
              -o-transform-origin: 0 0;
@@ -343,6 +349,10 @@
     .section2 a:link, .section2 a:visited, .section2 a:link:hover, .section2 a:visited:hover {
           text-decoration: none;
           color: #fff;
+    }
+    
+    #success_message{
+        display: none;
     }
 
 
@@ -511,6 +521,15 @@
         font-size: 18px;
     }
     
+     input {
+        height: 40px;
+        width: 96%;
+    }
+    
+    .inputEmail {
+        width: 70%;
+    }
+    
     
     
 
@@ -620,21 +639,16 @@
         left: 5%;
     }
     
+     input {
+        height: 40px;
+        width: 50%;
+    }
+    
     
    
 }
 
-@media (max-width: 500px) {
-  .top-border {	
-    display: none;
-  }
-  .section2 {
-    border-top: 2px solid #333;
-  }
-  .section2 h1 {
-    margin: 20px 6px;
-  }
-}
+
     
 
 
@@ -715,6 +729,19 @@
         letter-spacing: 2px;
         text-transform: uppercase;
 
+    }
+    
+    .five {
+        top: 51% !important;
+    }
+    
+    .seven {
+        top:51.7% !important;
+    }
+    
+     input {
+        height: 40px;
+        width: 30%;
     }
     
    
