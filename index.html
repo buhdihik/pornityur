@@ -8,12 +8,13 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
 
         <link href="css/main.css" rel="stylesheet" media="screen">
+        <link href="css/contact.css" rel="stylesheet" media="screen">
 
         <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"> 
         <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet"> 
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="js/main.js"></script>
+       
         <script>
 					$(document).ready(function(){
 					$('a[href^="#"]').on('click',function(e){
@@ -74,7 +75,7 @@
                   </div>
               </div>
             
-         <div class="collection col-md-12" >
+         <div class="collection col-md-12" id="second" >
            
                  <div class="text-center summer">summer collection <span class="orange">2017</span></div>
                      <div class="col-sm-4">
@@ -107,7 +108,7 @@
         </div>
             
              
-        <div class="bestSeller container">
+        <div class="bestSeller container" id="third">
             <h2>Best Seller<br/>Products</h2>
             <div class="col-sm-4 height426 text-center">
                 <div class="productCol">
@@ -162,56 +163,49 @@
             
         </div>    
          <br/><br/><br/>
-         <div class="news">
-             <div class="newsletter">
-                 <h1>Subscribe to our latest News and SALE</h1>
-                <div class="inputEmail"> <input type="text" name="email" value="enter your email here"/></div>
-                  
-                <div class="inputButton"> <button class="btn btn-success">subscribe</button></div>
-             </div>
-         </div><!--newsletter-->
+         <section class="home-newsletter" id="fourth">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                       <div class="single">
+                            <h2>Subscribe to our Newsletter<br/>
+                               and receive Promos and Sale!
+                            </h2>
+                            <div class="input-group">
+                                 <input type="email" class="form-control" placeholder="Enter your email">
+                                 <span class="input-group-btn">
+                                   <button class="btn btn-theme" type="submit">Subscribe</button>
+                                 </span>
+                              </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </section><!--newsletter-->
           <br/><br/><br/>
           
           <div class="contact">
-              <div class="container">
-
-    <form class="well form-horizontal" action=" " method="post"  id="contact_form">
-<fieldset>
-
-<!-- Form Name -->
-<legend>Contact Us Today!</legend>
-
-<!-- Text input-->
-
-        <div class="form-group">
-          <label class="col-md-4 control-label">First Name</label>  
-          <div class="col-md-4 inputGroupContainer">
-          <div class="input-group">
-          <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-          <input  name="first_name" placeholder="First Name" class="form-control"  type="text">
-            </div>
-          </div>
-        </div>
-
-       <div class="form-group">
-  <label class="col-md-4 control-label">E-Mail</label>  
-    <div class="col-md-4 inputGroupContainer">
-    <div class="input-group">
-        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-  <input name="email" placeholder="E-Mail Address" class="form-control"  type="text">
-    </div>
-  </div>
-  <!-- Button -->
-<div class="form-group">
-  <label class="col-md-4 control-label"></label>
-  <div class="col-md-4">
-    <button type="submit" class="btn btn-warning" >Send <span class="glyphicon glyphicon-send"></span></button>
-  </div>
-</div>
-</div>
-
-
-    </div><!-- /.container -->
+                  <div class="containerC">  
+                      <form id="contact" action="" method="post">
+                        <h3>Quick Contact</h3>
+                        <h4>Contact us today, and get reply with in 24 hours!</h4>
+                        <fieldset>
+                          <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+                        </fieldset>
+                        <fieldset>
+                          <input placeholder="Your Email Address" type="email" tabindex="2" required>
+                        </fieldset>
+                        <fieldset>
+                          <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+                        </fieldset>
+                        <fieldset>
+                          <textarea placeholder="Type your Message Here...." tabindex="4" required></textarea>
+                        </fieldset>
+                        <fieldset>
+                          <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                        </fieldset>
+                      </form>
+                    </div><!-- /.container -->
           </div>
          
             
