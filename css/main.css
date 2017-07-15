@@ -13,6 +13,9 @@
    height: 95px;
 }
 
+
+
+
 .navbar-left {
     margin-left: 10% !important;
     margin-top: 1% !important;
@@ -25,6 +28,8 @@
     text-transform: uppercase;
     font-size: 14px;
 }
+
+
 
 .navbar-fixed-top {
     border-color: transparent !important;
@@ -141,7 +146,7 @@
 
 .slogan h2, h1 {
     font-family: 'Merriweather', serif;
-    color: white;
+    color: white !important;
     text-transform: uppercase;
 }
 
@@ -317,6 +322,18 @@
     .contact {
         background-image: url(../images/tele.jpg);
         height: 100%;
+    }
+    
+    
+    @media screen and (min-width: 768px){
+        .navbar-nav {    
+            padding-top: 2%;
+        }
+        
+        .navbar-nav li a:hover {
+            border-bottom: 2px solid #999 !important;
+            padding-bottom: 2px !important;
+            }
     }
     
    
